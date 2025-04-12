@@ -1,0 +1,8 @@
+0000-00FF - SceneSettings (Addresses and mode settings for the scene)
+Compression Format:
+Tiles are grouped together by this Format
+(GroupedTileID)ABCDEF(Number of tiles to group)
+               ^spacer
+               Induvidual tiles are placed by linking their IDs. (TileID)
+0123456789ABCDEF is the code that the level ends
+SPR: (SprID)FE(ExtData)FF
